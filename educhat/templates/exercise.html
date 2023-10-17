@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Exercise Page</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <div id="exercise-description">
+        {{ task_description | safe }}
+    </div>
+    <div id="user-input-area">
+        <textarea id="user-input" rows="4" placeholder="Enter your answer here..."></textarea>
+        <button id="submit-btn">Submit</button>
+    </div>
+    <button id="show-solution-btn">Show Solution</button>
+    <button id="next-btn">Next</button>
+    <div id="solution-feedback-area">
+        <!-- Dynamically populate with server data -->
+    </div>
+
+    <script src="/static/js/exercise.js"></script>
+</body>
+</html>
