@@ -1,0 +1,3 @@
+{Exercise 4.3}
+
+What are the equations analogous to (4.3), (4.4), and (4.5) for the action-value function $q_\pi$ and its successive approximations by a sequence of functions $q_0, q_1, q_2, \dots$?

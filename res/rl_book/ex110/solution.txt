@@ -1,0 +1,5 @@
+We define a parameter $\beta$ and seed a sequence $u_n$ with $u_0=0$. The under the if statement where $\tau \geq 0$ we place the following:
+\begin{align*}
+    u &\leftarrow u + \beta (1 - u) \\
+    \bar{R} & \leftarrow \bar{R} + \frac{\beta}{\mu} (R - \bar{R})
+\end{align*}

@@ -1,0 +1,3 @@
+{Exercise 6.9 (programming): Windy Grid World with King's Moves}
+
+Re-solve the windy gridworld assuming eight possible actions, including the diagonal moves, rather than the usual four. How much better can you do with the extra actions? Can you do even better by including a ninth action that causes no movement at all other than that caused by the wind?

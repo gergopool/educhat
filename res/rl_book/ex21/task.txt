@@ -1,0 +1,3 @@
+{Exercise 3.5}
+
+The equations in Section 3.1 are for the continuing case and need to be modified (very slightly) to apply to episodic tasks. Show that you know the modifications needed by giving the modified version of (3.3)

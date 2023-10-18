@@ -1,0 +1,3 @@
+{*Exercise 6.5}
+
+In the right graph of the random walk example, the RMS error of the TD method seems to go down and then up again, particularly at high $\alpha$s. What could have caused this? Do you think this always occurs, or might it be a function of how the approximate value function was initialized?

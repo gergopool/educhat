@@ -1,0 +1,11 @@
+$\bar{R} = \frac13$ fixed. \\
+
+The sequence of errors from $R_t - \bar{R}_t$ starting in A would be 
+\[
+    -\frac13, -\frac13, \frac23, -\frac13, -\frac13, \frac23, \dots
+\]
+while the sequence of TD errors starting in A (taking differential values from Exercise 10.6) would be
+\[
+    0, 0, 0, 0, 0, 0, \dots
+\]
+which is clearly of much lower variance and would therefore give more stable updates. Once $\bar{R}$ gets to the correct value it never leaves.

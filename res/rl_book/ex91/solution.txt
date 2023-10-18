@@ -1,0 +1,1 @@
+Dyna-Q+ will take suboptimal actions in order to explore (when $\tau$ gets large). Dyna-Q will not do this so has better asymptotic performance.

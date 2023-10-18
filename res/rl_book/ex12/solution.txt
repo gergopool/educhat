@@ -1,0 +1,9 @@
+Consider the answer to \hyperref[ex:2.4]{Exercise 2.4}. There is no dependence of $Q_k$ on $Q_1$ for $k > 1$ since $\beta_1 = 1$. Now it remains to show that the weights in the remaining sum decrease as we look further into the past. That is
+\begin{equation}
+    w_i = \beta_i \prod_{k = i + 1}^{n} (1 - \beta_k)
+\end{equation}
+increases with $i$ for fixed n. For this, observe that
+\begin{equation}
+    \frac{w_{i+1}}{w_i} = \frac{\beta_{i+1}}{\beta_i(1 - \beta_{i + 1})} = \frac{1}{1 - \alpha} > 1
+\end{equation} 
+where we have assumed $\alpha < 1$. If $\alpha = 1$ then $\beta_t = 1 \,\, \forall \, t$.

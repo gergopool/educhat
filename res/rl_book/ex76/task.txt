@@ -1,0 +1,3 @@
+{Exercise 6.13}
+
+What are the update equations for Double Expected Sarsa with an $\varepsilon$-greedy target policy?

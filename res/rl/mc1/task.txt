@@ -1,0 +1,4 @@
+Consider an MDP with a single state \( s_0 \) that has a certain probability of transitioning back onto itself with a reward of 0, and will otherwise terminate with a reward of 3. Your agent has interacted with the environment and has gotten the following three trajectories: [0, 0, 3], [0, 0, 0, 0, 3], [0, 0, 0, 3]. Use \( \gamma = 0.8 \).
+
+(a) Estimate the value of s 0 using first-visit MC.
+(b) Estimate the value of s 0 using every-visit MC.

@@ -1,0 +1,7 @@
+{Exercise 7.11}
+
+Show that if the approximate action values are unchanging, then the tree-backup return (7.16) can be written as a sum of expectation-based TD errors:
+\[
+    G_{t:t+n} = Q(S_t, A_t) + \sum_{k=t}^{\textrm{min}(t+n, T)-1}\delta_k \prod_{i=t+1}^k \gamma \pi(A_i \vert S_i),
+\]
+where $\delta_t \doteq R_{t+1} + \gamma \bar{V}_t(S_{t+1}) - Q(S_t, A_t)$ and $\bar{V}_t$ is given by (7.8).

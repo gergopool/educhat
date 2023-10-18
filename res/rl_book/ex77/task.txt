@@ -1,0 +1,3 @@
+{Exercise 6.14}
+
+Describe how the task of Jack’s Car Rental (Example 4.2) could be reformulated in terms of afterstates. Why, in terms of this specific task, would such a reformulation be likely to speed convergence?

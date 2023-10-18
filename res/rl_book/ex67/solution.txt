@@ -1,0 +1,6 @@
+\begin{itemize}
+    \item General arguments given earlier about the benefits of TD are independent of $\alpha$
+    \item Increases in $\alpha$ make the curve more 
+    \item Decreases in $\alpha$ make the curve more smooth but make it converge slower.
+    \item We see enough of a range here to decide between the two methods
+\end{itemize}

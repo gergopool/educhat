@@ -1,0 +1,3 @@
+{Exercise 6.6}
+
+In Example 6.2 we stated that the true values for the random walk example are $\frac16$, $\frac26$, $\frac36$, $\frac46$, and $\frac56$ for states A through E. Describe at least two different ways that these could have been computed. Which would you guess we actually used? Why?

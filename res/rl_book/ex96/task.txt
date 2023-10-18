@@ -1,0 +1,3 @@
+{Exercise 8.8 (programming)}
+
+Replicate the experiment whose results are shown in the lower part of Figure 8.8, then try the same experiment but with $b = 3$. Discuss the meaning of your results.

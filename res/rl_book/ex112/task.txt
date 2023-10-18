@@ -1,0 +1,3 @@
+{*Exercise 11.2}
+
+Convert the equations of $n$-step Q$(\sigma)$ (7.11 and 7.17) to semi-gradient form. Give definitions that cover both the episodic and continuing cases.

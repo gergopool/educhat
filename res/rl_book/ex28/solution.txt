@@ -1,0 +1,6 @@
+\begin{align*}
+    v_\pi(\mathtt{center}) &\doteq \sum_a \pi(a | s) \sum_{s', r} p(s', r | s, a)[r + \gamma v_\pi(s')] \\
+    & = \frac14 \times 0.9 \times \sum_{s'} v_\pi(s')\\
+    & = \frac14 \times 0.9 \times 3.0 \\
+    & = 0.675
+\end{align*}

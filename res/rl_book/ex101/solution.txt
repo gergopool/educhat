@@ -1,0 +1,5 @@
+Each tiling is a partition, so each tiling has exactly one tile activated per state. This means that in our case the number of features is 98. We consider each of these equally likely because we are uninformed. We therefore take
+\[
+\alpha = \frac{1}{10 \times 98} = \frac{1}{980}.
+\]
+So that on average we see each feature 10 times before asymptote. [Note that this assumes a constant target.]

@@ -1,0 +1,6 @@
+Let $\alpha_0 = 1$, then 
+\begin{equation}
+    Q_{n + 1} = \left(\prod_{i=1}^n (1 - \alpha_i) \right) Q_1 + \sum_{i = 1}^{n}  \alpha_{i} R_{i} \prod_{k = i + 1}^n
+(1 - \alpha_k).
+\end{equation}
+Where $\prod_{i=x}^y f(i) \doteq 1$ if $x > y$.

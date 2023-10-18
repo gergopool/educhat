@@ -1,0 +1,5 @@
+I assume the rewards are stationary.\\
+
+One should choose the action with the highest expected reward. In the first case, both action 1 and 2 have expected value of 0.5, so it doesn't matter which you pick.\\
+
+In the second case one should run a normal bandit method separately on each colour. The expected reward from identifying the optimal actions in each case is 0.55.

@@ -1,0 +1,3 @@
+{Exercise 6.11}
+
+Why is Q-learning considered an \emph{off-policy} control method?

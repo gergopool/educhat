@@ -1,0 +1,32 @@
+The average reward is $\bar{R} = \frac13$. To calculate the differential return we have 
+\[
+    V(A) = \sum_t (a_t - \bar{R})
+\]
+where $a_i = \mathds{1}\{i + 1 \equiv 0 \pmod 3\}$. This doesn't converge in the normal way, so to attempt to calculate it let's consider
+\[
+    V(A; \gamma) = \sum_t \gamma^t \left( a_t - \frac13\right)
+\]
+then, formally, we have
+\[
+    \lim_{\gamma \to 1} V(A; \gamma) = V(A).
+\]
+Now 
+\begin{align*}
+    V(A; \gamma) &= - \frac13 - \frac13 \gamma  + \frac23 \gamma^2 + \sum_{t=3}^{\infty} \gamma^t \left(a_t - \frac13\right) \\
+                 &= \frac13 (2 \gamma^2 - \gamma - 1) + \gamma ^3 \sum_{t=0}^{\infty} \gamma^t \left(a_t - \frac13\right)
+\end{align*}
+so
+\begin{align*}
+    V(A; \gamma) &= \frac13 \frac{2 \gamma^2 - \gamma - 1}{1 - \gamma^3} \\
+                 &= -\frac13 \frac{2 \gamma + 1}{\gamma^2 + \gamma +1}
+\end{align*}
+which leads to $V(A) = -\frac13$. \\
+
+Then we have 
+\[
+    V(A) = -\frac13 + V(B) \quad \implies \quad V(B) = 0
+\]
+and
+\[
+    V(B) = -\frac13 + V(C) \quad \implies \quad V(C) = \frac13.
+\]

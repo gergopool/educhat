@@ -1,0 +1,5 @@
+\begin{enumerate}
+    \item Simple example is a robot that hoovers a room. The state can be how much dust there is on the ground and where the robot is (including it's orientation). Actions can be to move and hoover. The reward can be the amount by which it reduces dust in the room on that action. This is Markov because all that is important from the previous state to the future is where the dust is left (maybe also how much).
+    \item Outlandish example is a football coach. Actions are playing strategies. Rewards are goals. State is current score, team fitness, etc..
+    \item financial trader. State is their current holdings on an asset. Reward is money from a trade. Actions are buy/sell. Maybe not markov because the environment may change predictably based on information from multiple steps ago.
+\end{enumerate}

@@ -1,0 +1,5 @@
+I'm not too sure here...
+\begin{itemize}
+    \item We could rank the draws as better than the losses.
+    \item We might like to try running multiple iterations of games before updating our weights as this might give a better estimate.
+\end{itemize}

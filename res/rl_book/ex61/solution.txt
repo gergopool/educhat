@@ -1,0 +1,4 @@
+$\pi$ is greedy, so 
+\[
+    \pi(a | s) = \mathds{1}\{a = \argmax_{a'} Q(s, a')\}.
+\]

@@ -1,0 +1,5 @@
+\begin{itemize}
+    \item Monte Carlo is $n$-step Sarsa with $n \to \infty$
+    \item This is same pseudocode as given, but with full episodes and $G_t$ rather than $G_{t:t+n}$.
+    \item Could have been very poor on the mountain car as may never have finished the first episode and does not learn within an episode (online)
+\end{itemize}

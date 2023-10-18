@@ -1,0 +1,3 @@
+{Exercise 4.8}
+
+Why does the optimal policy for the gambler’s problem have such a curious form? In particular, for capital of 50 it bets it all on one flip, but for capital of 51 it does not. Why is this a good policy?

@@ -1,0 +1,7 @@
+\ProgrammingExercise{}\\
+
+The change means that exploration only takes into account the next action, not whole trajectories. In the Dyna-Q+ algorithm can explore whole new paths through the planning stage.\\
+
+This is backed up by the results. The altered Dyna-Q+ learns the new path slower because it can't plan new trajectories.
+\\
+\includegraphics[width=\textwidth]{\ExerciseOutput/ex_8_4/dyna_q_comparison.png}

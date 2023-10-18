@@ -1,0 +1,3 @@
+{Exercise 3.13}
+
+What is the Bellman equation for action values, that is, for $q_\pi$? It must give the action value $q_\pi(s, a)$ in terms of the action values, $q_\pi(s',a')$, of possible successors to the state–action pair $(s,a)$. Hint: the backup diagram to the right corresponds to this equation. Show the sequence of equations analogous to (3.14), but for action values.

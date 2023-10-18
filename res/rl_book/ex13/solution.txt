@@ -1,0 +1,3 @@
+In the first 10 steps the agent cycles through all of the actions because when $N_t(a) = 0$ then $a$ is considered maximal. On the 11th step the agent will most often then choose greedily. The agent will continue to choose greedily until $\mathrm{ln}(t)$ overtakes $N_t(a)$ for one of the other actions, in which case the agent begins to explore again hence reducing rewards.\\
+
+Note that, in the long run, $N_t = O(t)$ and $\mathrm{ln}(t) / t \to 1$. So this agent is `asymptotically greedy'.

@@ -1,0 +1,3 @@
+\begin{equation}
+    \sum_{s' \in \mathcal{S}^{+}} \sum_{r \in \mathcal{R}} p(s', r | s, a) = 1
+\end{equation}

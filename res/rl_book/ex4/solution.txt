@@ -1,0 +1,6 @@
+I think that an estimate for the probability of the state producing a win should be based on the optimal moves from that state.
+\begin{itemize}
+    \item The one in which we only record the optimal moves is the probability of our optimal agent winning. If we include exploration then this is the probability of the training agent winning.
+    \item Better to learn the probability of winning with no exploration since this is how the agent will perform in real time play.
+    \item Updating from optimal moves only will increase probability of winning.
+\end{itemize}

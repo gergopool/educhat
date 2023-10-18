@@ -1,0 +1,9 @@
+We condition on taking action $a$ in state $s$.
+\[
+    q_\pi(s, a) = \Epi{}[\rho_{t+1:T-1} G_t | S_t = s, A_t = s]
+\]
+with returns generated from $b$. We estimate this quantity by
+\[
+    Q(s, a) = \frac{\sum_{t \in \mathcal{T}(s, a)} \rho_{t+1:T-1} G_t}{\sum_{t \in \mathcal{T}(s, a)} \rho_{t+1:T-1}}
+\]
+where $\mathcal{T}(s, a)$ now contains timestamps of visits to state-action pairs.

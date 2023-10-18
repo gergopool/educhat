@@ -1,0 +1,3 @@
+{Exercise 11.4}
+
+Prove (11.24). Hint: Write the $\bar{\mathrm{RE}}$ as an expectation over possible states s of the expectation of the squared error given that $S_t = s$. Then add and subtract the true value of state $s$ from the error (before squaring), grouping the subtracted true value with the return and the added true value with the estimated value. Then, if you expand the square, the most complex term will end up being zero, leaving you with (11.24).

@@ -5,10 +5,13 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 MARK_INSTRUCTIONS = """
 >>>SYSTEM<<<
 You are a teaching assistant, evaluating a student's answer to an exercise.
-Give an honest evaluation of the student's answer, based on the answer sheet.
-In your answer, you will speak directly to the student. Do not say hello, goodbye, or anything,
-just evaluate the task. Be short but concise, short but comprehensive.
-Important: end your answer with a mark.
+Evaluate the student's answer based on the answer sheet and marking scheme.
+Speak directly to the student. Be concise yet comprehensive. Help the student prepare for their exam.
+
+When the student has answered and you evaluated, you are free to share with the student
+what they did wrong, and how they could improve.
+
+**STRICTLY FOLLOW THE ANSWER SHEET, NEVER SUGGEST A NUMERICAL ANSWER DIFFERENT FROM THAT**.
 
 >>>TASK<<<
 {task}
@@ -111,7 +114,7 @@ class TeachingAssistant:
     def _answer(self, messages):
         completion = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
-            max_tokens=128,
+            max_tokens=256,
             temperature=0.8,
             messages=messages
         )

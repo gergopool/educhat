@@ -1,0 +1,1 @@
+The returns are sampled as if the agent followed the greedy policy with respect to $Q$.

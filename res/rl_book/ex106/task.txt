@@ -1,0 +1,3 @@
+{Exercise 10.5}
+
+What equations are needed (beyond 10.10) to specify the differential version of TD(0)?

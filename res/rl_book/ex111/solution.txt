@@ -1,0 +1,18 @@
+Tabular case is 
+\[ 
+    V_{t+n}(S_t) = V_{t+n-1} + \alpha \rho_{t:t+n-1} [G_{t:t+n} - V_{t+n-1}(S_t)].
+\]
+The semi-gradient weight update is
+\[
+    \vec{w}_{t+n} = \vec{w}_{t+n-1} + \alpha \rho_{t:t+n-1}[G_{t:t+n} - \hat{v}(S_t, \vec{w}_{t+n-1})] \grad_{\vec{w}}\hat{v}(S_t, \vec{w}_{t+n-1}),
+\]
+noting the occurrence of the $n$step TD Error
+\[
+    \delta_t^n = G_{t:t+n} - \hat{v}(S_t, \vec{w}_{t+n-1}).
+\]
+We define the returns in the two cases
+\begin{description}
+    \item[episodic] $G_{t:t+n} = \sum_{i=t}^{t+n-1}\gamma_{i-t}R_{i+1} + \gamma^n \hat{v}(S_{t+n}, \vec{w}_{t+n-1})$
+    \item[continuing] $G_{t:t+n} = \sum_{i=t}^{t+n-1}(R_{i+1} - \bar{R}_i) + \hat{v}(S_{t+n}, \vec{w}_{t+n-1})$
+\end{description}
+where in each case $G_{t:h} = G_t$ if $h \geq T$.

@@ -1,0 +1,3 @@
+One problem is that the $\argmax_a$ has ties broken arbitrarily, this means that the same value function can give rise to different policies.\\
+
+The way to solve this is to change the algorithm to take the whole set of maximal actions on each step and see if this set is stable and see if the policy is stable with respect to choosing actions from this set.

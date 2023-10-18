@@ -1,0 +1,3 @@
+{Exercise 3.22}
+
+Figure 3.5 gives the optimal value of the best state of the gridworld as $24.4$, to one decimal place. Use your knowledge of the optimal policy and (3.8) to express this value symbolically, and then to compute it to three decimal places.

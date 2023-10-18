@@ -1,0 +1,7 @@
+\ProgrammingExercise\\
+
+The process was stable as $\theta \to 0$ for $\P{}(\mathtt{win}) < 0.5$.
+
+\includegraphics[width=\textwidth]{\ProjectDir/data/exercise_output/ex_4_9/values_and_policy_pwin_25.eps}
+
+\includegraphics[width=\textwidth]{\ProjectDir/data/exercise_output/ex_4_9/values_and_policy_pwin_55.eps}

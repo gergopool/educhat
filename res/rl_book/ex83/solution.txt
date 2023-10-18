@@ -1,0 +1,12 @@
+In (7.13) we have
+\begin{align*}
+    \E{}[(1-\rho_t)V_{h-1}(S_t)] &= \E{}_b[(1-\rho_t)V_{h-1}(S_t)] \\
+                                 &= \E{}_b[(1-\rho_t)]\E{}_b[V_{h-1}(S_t)] \\
+                                 &= 0.
+\end{align*}
+In the second case (7.14) we have 
+\begin{align*}
+    & \E{}_b [\bar{V}_{h-1}(S_{t+1}) - \rho_{t+1}Q_{h-1}(S_{t+1}, A_{t+1}) \vert S_{t+1}] \\
+    &= \sum_a \pi(a \vert S_{t+1}) Q_{h-1}(S_{t+1}, a) - \sum_a b(a \vert S_{t+1}) \frac{\pi(a\vert S_{t+1})}{b(a \vert S_{t+1})} Q_{h-1}(S_{t+1}, a)\\
+                        &= 0 
+\end{align*}

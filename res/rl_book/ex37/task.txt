@@ -1,0 +1,3 @@
+{Exercise 3.21}
+
+Give the Bellman equation for $q_*$ for the recycling robot.

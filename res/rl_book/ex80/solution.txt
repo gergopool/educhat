@@ -1,0 +1,4 @@
+\begin{itemize}
+    \item Smaller walk would have shifted advantage to smaller $n$ because when $n \geq \frac{\textrm{\#states}-1}{2}$ (\#states is odd) the algorithm updates all states visited by the terminal reward. This means that the algorithm only makes value changes of size $\alpha$, since the values are no longer bootstrapped or backed up.
+    \item The addition of the $-1$ reward on the left favours smaller values of $n$, because in longer episodes the larger values of $n$ will have to update many states by the terminal reward (now $-1$ rather than $0$) thus increasing variance
+\end{itemize}

@@ -1,0 +1,9 @@
+Let terminal time be $T$. In this case we have 
+\begin{equation}
+    G_t \mapsto G_t + c\frac{1 - \gamma^T}{1 - \gamma},
+\end{equation}
+so if the agent can procrastinate termination, then all else being equal it will increase $v_\pi$.\\
+
+Suppose that we have an episodic task with one state $S$ and two actions $A_0, A_1$. $A_0$ takes agent to terminal state with reward $1$, while $A_1$ takes agent back to $S$ with reward $0$. In this case the agent should terminate to maximise reward. \\ 
+
+If we add $1$ to each reward then the return for doing $A_1$ forever is $\frac{1}{1-\gamma}$. Which can be bigger than $2$ if we choose a discount factor smaller than $\frac12$.

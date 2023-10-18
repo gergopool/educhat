@@ -1,0 +1,3 @@
+{Exercise 1.3: Greedy Play}
+
+Suppose the reinforcement learning player was greedy, that is, it always played the move that brought it to the position that it rated the best. Might it learn to play better, or worse, than a nongreedy player? What problems might occur

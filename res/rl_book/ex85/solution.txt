@@ -1,0 +1,16 @@
+Update target is
+\[
+    G_{t:h} = \rho_t (R_{t+1} + \gamma G_{t+1:h}) + (1 - \rho_t) V_{h-1}(S_t).
+\]
+Assume state-value function does not change and introduce the TD error
+\[
+    \delta_t \doteq R_{t+1} + \gamma V(S_{t+1}) - V(S_t).
+\]
+Then
+\begin{align*}
+    G_{t:h} - V(S_t) &= \rho_t \left( R_{t+1} + \gamma G_{t+1:h} - V(S_t) \right) \\
+                     &= \rho_t \left( R_{t+1} + \gamma [G_{t+1:h} - V(S_{t+1})] + \gamma V(S_{t+1})  - V(S_t) \right) \\
+                     &= \rho_t \delta_t + \rho_t \gamma[G_{t+1:h} - V(S_{t+1})] \\
+                     &\vdotswithin{=}\\
+                     &= \sum_{i=t}^{\textrm{min}(h, T)-1}\rho_{t:i}\gamma^{i-t}\delta_i
+\end{align*}

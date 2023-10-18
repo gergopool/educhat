@@ -1,0 +1,3 @@
+{Exercise 5.2}
+
+Suppose every-visit MC was used instead of first-visit MC on the blackjack task. Would you expect the results to be very different? Why or why not?

@@ -1,0 +1,5 @@
+\begin{itemize}
+    \item The natural distinction depends on the task. If the task is to go from one location to another, the actions might be in terms of directing the car and altering its speed. 
+    \item This also depends on what we consider to be the decision making part here. If we consider the decisions to be made by the brain of a human driving, then their physical body will form part of the environment -- if they break their leg then it will effect their goal.
+    \item Actions have to be things that the agent can actually control. Take the example of an autonomous vehicle. One might consider that the agent has complete control over the car's break, accelerator and steering wheel. These operations would form the actions for the agent. 
+\end{itemize}

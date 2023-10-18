@@ -1,0 +1,3 @@
+{Exercise 3.26}
+
+Give an equation for $\pi_*$ in terms of $v_*$ and the world's dynamics $p(s', r| s, a)$.

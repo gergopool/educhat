@@ -1,0 +1,4 @@
+Same as others but with the target
+\[
+    R_{t+1} - \bar{R}_{t+1} - \max_a \hat{q}(S_{t+1}, a, \vec{w}_t)
+\]

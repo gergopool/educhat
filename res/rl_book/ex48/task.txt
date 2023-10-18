@@ -1,0 +1,3 @@
+{Exercise 4.6}
+
+Suppose you are restricted to considering only policies that are $\varepsilon$-soft, meaning that the probability of selecting each action in each state, $s$, is at least $\varepsilon / |\mathcal{A}(s)|$. Describe qualitatively the changes that would be required in each of the steps 3, 2, and 1, in that order, of the policy iteration algorithm for $v_\pi$ (page 80).

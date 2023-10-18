@@ -1,0 +1,5 @@
+When there are fewer episodes the importance sampling ratios will be zero with higher probability since the behaviour policy will stick on values smaller than 20 (since it is random). Zero happens to be close to $v_\pi(s)$.\\
+
+This effect lessens as we get more diversity in the episode trajectories.\\
+
+Then after this the error reduces because the variance in the estimator reduces.

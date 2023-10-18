@@ -1,0 +1,1 @@
+Results would be the same because this game is memoryless (cards are drawn with replacement).

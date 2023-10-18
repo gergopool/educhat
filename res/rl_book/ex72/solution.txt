@@ -1,0 +1,9 @@
+\ProgrammingExercise\\
+
+Optimal trajectory is now 7 steps, rather than 15. Including the do-nothing action is not helpful in this example because the wind blows vertically and the goal position is not vertically separated from the start position. It could be useful in other wind environments though.\\
+
+Below are the optimal trajectories for the book example (no diagonal moves) and for the exercise (king's moves). The numbers represent the wind strength in that position.\\
+
+\includegraphics[width=\textwidth]{\ExerciseOutput/ex_6_9/optimal_no_diagonal_moves.png}
+
+\includegraphics[width=\textwidth]{\ExerciseOutput/ex_6_9/optimal_with_diagonal_moves.png}

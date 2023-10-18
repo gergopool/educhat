@@ -1,0 +1,3 @@
+{Exercise 8.3}
+
+Careful inspection of Figure 8.5 reveals that the difference between Dyna-Q+ and Dyna-Q narrowed slightly over the first part of the experiment. What is the reason for this?

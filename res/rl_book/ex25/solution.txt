@@ -1,0 +1,4 @@
+\begin{align}
+    G_1 &= 7 \frac{\gamma}{1 - \gamma} \\
+    G_0 &= 2 + 7 \frac{\gamma}{1 - \gamma}
+\end{align}

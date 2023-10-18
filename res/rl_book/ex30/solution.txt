@@ -1,0 +1,7 @@
+We choose actions by relative (additive) values. Add $c$ to all states and 
+\begin{equation}
+    G_t \mapsto G_t + \frac{c}{1 - \gamma}
+\end{equation}
+so relative values unchanged.\\
+
+$v_c = \frac{c}{1 - \gamma}$

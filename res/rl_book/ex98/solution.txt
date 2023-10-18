@@ -1,0 +1,1 @@
+Each of the $k$ terms can independently have one of $n+1$ exponents, hence the total number of features is $(n+1)^k$.

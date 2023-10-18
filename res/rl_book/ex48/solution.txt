@@ -1,0 +1,5 @@
+\begin{enumerate}
+    \item No change (but need policy to be able to be stochastic of course)
+    \item Need to re-write the Bellman update $v(s) \longleftarrow \sum_{a \in \mathcal{A}(s)} \pi(a|s)\sum_{s', r}p(s', r|s, a)\left[ r + \gamma v(s') \right]$
+    \item Construct a greedy policy that puts weight on the greedy actions but is $\varepsilon$-soft. Be careful with the consistency of the $\argmax$.
+\end{enumerate}

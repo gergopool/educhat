@@ -1,0 +1,3 @@
+{Exercise 7.8}
+
+Show that the general (off-policy) version of the $n$-step return (7.13) can still be written exactly and compactly as the sum of state-based TD errors (6.5) if the approximate state value function does not change.

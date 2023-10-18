@@ -1,0 +1,9 @@
+Note that the pole will fall eventually with probability 1
+\begin{equation}
+    G_t = - \gamma^{T - t}.
+\end{equation}
+Whereas in the continuing case the value is
+\begin{equation}
+    G_t = - \sum_{k \in \mathcal{K}} \gamma^{k - t},
+\end{equation}
+where $\mathcal{K}$ is the set of times after $t$ at which the pole falls over.

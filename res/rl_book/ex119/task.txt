@@ -1,0 +1,12 @@
+{Exercise 13.5}
+
+A \emph{Bernoulli-logistic unit} is a stochastic neuron-like unit used in some ANNs (Section 9.6). Its input at time $t$ is a feature vector $\vec{x}(S_t)$; its output, $A_t$, is a random variable having two values, 0 and 1, with $\text{Pr}\{A_t = 1\} = P_t$ and $\text{Pr}\{A_t = 0\} = 1- P_t$ (the Bernoulli distribution). Let $h(s, 0, \vec{\theta})$ and $h(s, 1, \vec{\theta})$ be the preferences in state $s$ for the unit’s two actions given policy parameter $\vec{\theta}$. Assume that the difference between the action preferences is given by a weighted sum of the unit’s input vector, that is, assume
+that $h(s, 1, \vec{\theta}) - h(s, 0, \vec{\theta}) = \vec{\theta}^\top \vec{x}(s)$, where $\vec{\theta}$ is the unit’s weight vector.
+
+\begin{enumerate}[(a)]
+    \item Show that if the exponential soft-max distribution (13.2) is used to convert action preferences to policies, then $P_t = \pi(1 \vert{}S_t, \vec{\theta}_t) = 1/(1 + \exp(-\vec{\theta}_t^\top\vec{x}(S_t)))$(the logistic function).
+    \item What is the Monte-Carlo REINFORCE update of $\vec{\theta}_t$ to $\vec{\theta}_t$ upon receipt of return $G_t$?
+    \item Express the eligibility $\grad\log\pi(a\vert{}s,\vec{\theta})$ for a Bernoulli-logistic unit, in terms of $a$, $\vec{x}(s)$ and $\pi(a \vert{} s, \vec{\theta})$ by calculating the gradient.
+\end{enumerate}
+
+Hint: separately for each action compute the derivative of the logarithm first with respect to $P_t = \pi(1 \vert{}S_t, \vec{\theta}_t)$, combine the two results into one expression that depends on $a$ and $P_t$, and then use the chain rule, noting that the derivative of the logistic function $f(x)$ is $f(x)(1 - f(x))$.

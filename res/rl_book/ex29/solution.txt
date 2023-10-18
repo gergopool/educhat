@@ -1,0 +1,6 @@
+\begin{align*}
+    q_\pi &\doteq \Epi[G_t | S_t=s, A_t=a]\\
+          &= \Epi[R_{t+1}| S_t=s, A_t=a] + \gamma \Epi[G_{t+1} |S_t = s, A_t = a] \\
+          &= \sum_{s', r} p(s', r|s, a)r + \gamma \sum_{s', r} p(s', r|s, a) \sum_{a'}\pi(a'|s')\Epi[G_{t+1}| S_{t+1}=s', A_{t+1}=a'] \\
+          &= \sum_{s', r} p(s', r| s, a) [r + \gamma \sum_{a'}\pi(a'|s')q_\pi(s', a')]
+\end{align*}

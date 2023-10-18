@@ -1,0 +1,1 @@
+Yes, all terms in the sum are $\geq 0$ and there woud just be more of them.

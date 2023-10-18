@@ -1,0 +1,3 @@
+{Exercise 3.19}
+
+ Draw or describe the contours of the optimal action-value function for putting, $q_*(s, \mathtt{putter})$, for the golf example.

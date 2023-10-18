@@ -1,0 +1,3 @@
+{Exercise 3.16}
+
+\includegraphics[width=\textwidth]{\ProjectDir/data/exercise_questions/ex_3_16_question.png}

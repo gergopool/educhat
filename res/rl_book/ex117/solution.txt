@@ -1,0 +1,13 @@
+Have softmax policy
+\[
+    \pi(a \vert{} s, \vec{\theta}) = \frac{\exp(h(s, a, \vec{\theta}))}{\sum_b \exp(h(s, a, \vec{\theta}))}
+\]
+with linear action preferences 
+\[
+    h(s, a, \vec{\theta}) = \vec{\theta}^\top \vec{x}(s, a).
+\]
+The following is then clear:
+\begin{align*}
+    \grad_{\vec{\theta}} \log(\pi) &= \vec{x}(s, a) - \frac{\sum_b \vec{x}(s, b) \exp(\vec{\theta}^\top \vec{x}(s, b))}{\sum_b \exp(\vec{\theta}^\top \vec{x}(s, b))} \\
+                                   &= \vec{x}(s, a) - \sum_b \vec{x}(s, b) \pi(b \vert{} s, \vec{\theta}).
+\end{align*}

@@ -1,0 +1,1 @@
+Since the coin is biased against us, we want to minimize the number of flips that we take. At 50 we can win with probability 0.4. At 51 if we bet small then we can get up to 52, but if we lose then we are still only back to 50 and we can again with with probability 0.4. (There is a whole paper on this problem called how to gamble if you must.)

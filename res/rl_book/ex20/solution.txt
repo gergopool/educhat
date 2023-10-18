@@ -1,0 +1,18 @@
+\begin{table}[h!]
+\centering
+\begin{tabular}{ll|ll|c}
+    $s$ & $a$ & $s'$ & $r$ & $p(s', r | s, a)$ \\
+    \hline
+     \texttt{high}& \texttt{search}&  \texttt{high}&  $r_{\texttt{search}}$& $\alpha$  \\
+     \texttt{high}& \texttt{search}&  \texttt{low}&   $r_{\texttt{search}}$& $1 - \alpha$ \\
+     \texttt{high}& \texttt{wait}&  \texttt{high}&   $r_{\texttt{wait}}$&  $1$ \\
+     \texttt{low}& \texttt{recharge}&   \texttt{high}&    $0$&   $1$\\
+     \texttt{low}& \texttt{search}&  \texttt{high}&  $-3$& $1 - \beta$  \\
+     \texttt{low}& \texttt{search}&  \texttt{low}&   $r_{\texttt{search}}$& $\beta $\\
+     \texttt{low}& \texttt{wait}&  \texttt{low}&   $r_{\texttt{wait}}$&  $1$
+\end{tabular}
+
+
+\caption{Transition table}
+\label{table:3.4}
+\end{table}

@@ -1,0 +1,27 @@
+Define
+\[
+    f(h) = \frac{1}{2h} \sum_{t=0}^{2h} \mathds{1}\{t \equiv 0 \pmod 2\} = \frac{h + 1}{2h}
+\]
+then
+\[
+    \bar{R} = \lim_{h \to \infty}f(h/2) = \lim_{h \to \infty}f(h) = \frac12.
+\]
+Now to compute the differential state values we write
+\[
+    V(S; \gamma) = \lim_{h\to \infty} \sum_{t=0}^h \gamma^t \left( \E{}[R_{t+1} \vert{} S_0 = s] - \bar{R} \right)
+\]
+then
+\begin{align*}
+    V(A; \gamma) &= 1 - \bar{R} + \gamma V(B; \gamma) \\ 
+    V(B; \gamma) &= - \bar{R} + \gamma V(A; \gamma)
+\end{align*}
+so
+\[
+    V(A; \gamma) = \frac12 ( 1 - \gamma ) - \gamma^2 V(A; \gamma)
+\]
+and
+\begin{align*}
+    V(A; \gamma) &= \frac12 \frac{1 - \gamma}{1 - \gamma^2} \\
+                 &= \frac{1}{2(1 + \gamma)}.
+\end{align*}
+Finally, $V(A) = \lim_{\gamma \to 1} V(A; \gamma) = \frac14$ and $V(B) = - \frac14$.

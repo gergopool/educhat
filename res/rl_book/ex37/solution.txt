@@ -1,0 +1,4 @@
+This is just writing out the equation below, filling in the values given in the robot example.
+\begin{equation}
+    q_*(s, a) = \sum_{s', r} p(s', r | s, a)[r + \gamma \max_{a'} q_*(s', a')]
+\end{equation}

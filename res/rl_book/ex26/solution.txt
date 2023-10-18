@@ -1,0 +1,7 @@
+Take $r \in \mathbb{C}$ with $|r| < 1$, then
+\begin{align*}
+    S_N &\doteq \sum_{i=0}^N r^i \\
+    rS_N - S_N &= r^{N+1} - 1 \\
+    S_N &= \frac{1 - r^{N+1}}{1 - r} \\
+    S &\doteq \lim_{N \to \infty} S_N = \frac{1}{1 - r}
+\end{align*}

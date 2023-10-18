@@ -1,0 +1,5 @@
+One might have coded this up initially with the states as the number of cars in each garage each evening. The agent then takes some action (moves some cars) and we transition stochastically to some state.\\
+
+An alternative would be to introduce the number of cars in the morning (after the agent has moved cars) as an afterstate. This is because the agent is able to deterministically change the environment from evening to next morning (before rentals or returns).\\
+
+In this case we would speed convergence by reducing the number of action-values to be calculated. For instance, we can now evaluate $(10, 0)$ moving one car and $(9, 1)$ moving no cars as the same afterstate $(9, 1)$.

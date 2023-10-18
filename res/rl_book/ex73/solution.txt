@@ -1,0 +1,7 @@
+\ProgrammingExercise\\
+
+Greedy trajectory and learning curve shown below. Note that although the gradient of the learning curve becomes constant (so the algorithm converges), the greedy episode shown suffers from stochasticity in the wind.
+
+\includegraphics[width=\textwidth]{\ExerciseOutput/ex_6_10/optimal.png}
+
+\includegraphics[width=\textwidth]{\ExerciseOutput/ex_6_10/learning_curve.eps}

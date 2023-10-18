@@ -1,3 +1,0 @@
-0/1 Making any mistake
-1/1 Right solution
-Common mistake: making the summation first, that ends up in (4+3)*3=21

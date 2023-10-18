@@ -1,0 +1,3 @@
+{Exercise 9.3}
+
+What $n$ and $c_{i,j}$ produce the feature vectors $\vec{x}(s) = (1, s_1, s_2, s_1s_2, s_1^2, s_2^2, s_1s_2^2, s_1^2 s_2, s_1^2 s_2^2)$?

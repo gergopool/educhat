@@ -1,0 +1,6 @@
+\ProgrammingExercise{}\\
+\mbox{}\\
+Charts show averages of 200 runs. We see that in the $b=3$ case the uniformly distributed updates overtakes the on-policy updates much quicker. This is due to the greater complexity of the state-space (the number of states on which the value of the starting state depends is exponential in $b$), of which the on-policy updates neglects large portions. \\
+\includegraphics[width=\textwidth]{\ExerciseOutput/ex_8_8/update_distribution_comparison_10000_1.png}
+\mbox{}\\
+\includegraphics[width=\textwidth]{\ExerciseOutput/ex_8_8/update_distribution_comparison_10000_3.png}

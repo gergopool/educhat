@@ -1,0 +1,11 @@
+We know that
+\begin{equation}
+    v_\pi(s) = \sum_{a \in \mathcal{A}(s)} \pi(a|s)q_\pi(s, a)
+\end{equation}
+so we know that
+\begin{equation}
+    q_\pi(s, \pi'(s)) \geq \sum_{a \in \mathcal{A}(s)} \pi(a|s)q_\pi(s, a)
+\end{equation}
+if $\pi'$ is greedy with respect to $\pi$. So we know the algorithm still works for action values.\\
+
+All there is now is to substitute the update for the action-value update and make the policy greedy with respect to the last iteration's action-values. Also need to make sure that the $\argmax_a$ is done consistently.

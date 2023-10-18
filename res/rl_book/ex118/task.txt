@@ -1,0 +1,8 @@
+{Exercise 13.4}
+
+Show that for the gaussian policy parameterization (13.19) the eligibility vector has the following two parts:
+
+\begin{align*}
+    \grad \log \pi(a \vert{} s, \vec{\theta}_\mu) &= \frac{\grad \pi(a \vert{} s, \vec{\theta}_\mu)}{\pi(a \vert{} s, \vec{\theta})} = \frac{1}{\sigma(s, \vec{\theta})^2} (a - \mu(s, \vec{\theta}))\vec{x}_\mu(s)\text{, and}\\
+    \grad \log \pi(a \vert{} s, \vec{\theta}_\sigma) &= \frac{\grad \pi(a \vert{} s, \vec{\theta}_\sigma)}{\pi(a \vert{} s, \vec{\theta})} = \left( \frac{(a - \mu(s, \vec{\theta}))^2}{\sigma(s, \vec{\theta})^2} - 1 \right) \vec{x}_\sigma(s)
+\end{align*}

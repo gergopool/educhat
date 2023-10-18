@@ -1,0 +1,1 @@
+If the transition probabilities are skewed then the expected updates perform the same while sample updates get accurate on the most probably outcomes very quickly. This strengthens the case for sample updates.

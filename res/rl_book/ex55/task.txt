@@ -1,0 +1,3 @@
+{Exercise 5.3}
+
+What is the backup diagram for Monte Carlo estimation of $q_\pi$?

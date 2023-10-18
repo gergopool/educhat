@@ -1,0 +1,3 @@
+0 with no solution right.
+1 if one of them is right.
+2 if all of them is right.

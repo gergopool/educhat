@@ -1,0 +1,10 @@
+All states apart from the terminal states were initialised to the same value (the terminal states must be initialised to 0) and the reward for non-terminal transitions is 0, so the TD(0) updates do nothing on the first pass to states that cannot lead directly to termination. \\
+
+In the first run, the agent terminated on the left.
+\begin{align}
+    V_1(A) &= V_0(A) + \alpha[ 0 + \gamma \times 0 + V_0(A)]\\
+           &= (1-\alpha) V_0(A) \\
+           &= 0.9 \times 0.5 \\
+           &= \frac{9}{20}.
+\end{align}    
+The value of the estimate for $A$ reduced by $\alpha V_0(A) = 0.05$.

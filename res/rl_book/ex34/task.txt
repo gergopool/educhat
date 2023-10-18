@@ -1,0 +1,3 @@
+{Exercise 3.18}
+
+Draw or describe the optimal state-value function for the golf example.

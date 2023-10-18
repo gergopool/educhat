@@ -1,0 +1,3 @@
+{Exercise 3.24}
+
+Give an equation for $q_*$ in terms of $v_*$ and the world's dynamics $p(s', r| s, a)$.

@@ -1,0 +1,4 @@
+\begin{itemize}
+    \item The greedy player will not explore, so will in general perform worse than the non-greedy player
+    \item If the greedy player had a perfect estimate of the value of states then this would be fine.
+\end{itemize}

@@ -1,0 +1,3 @@
+(Using the pictures.) Optimal state value gives values according to \texttt{driver} when off the green, then according to \texttt{putter} on the green.\\
+
+Optimal policy is to use \texttt{driver} when off green and \texttt{putter} when on green.

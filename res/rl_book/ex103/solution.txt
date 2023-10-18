@@ -1,0 +1,4 @@
+Expected sarsa is the same but the target is 
+\[
+    \sum_{k=t}^{t +n -1} \gamma^{k-t} R_{k + 1} + \sum_a \pi(a \vert{} S_{t+n}) q_{t + n -1}(S_{t+n}, a)
+\]

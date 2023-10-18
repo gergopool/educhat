@@ -1,0 +1,3 @@
+{*Exercise 7.7}
+
+Write the pseudocode for the off-policy action-value prediction algorithm described immediately above. Pay particular attention to the termination conditions for the recursion upon hitting the horizon or the end of episode.

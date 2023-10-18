@@ -1,0 +1,2 @@
+\ProgrammingExercise\\
+\includegraphics[width=\textwidth]{\ProjectDir/data/exercise_output/ex_4_7/altered_car_rental.png}

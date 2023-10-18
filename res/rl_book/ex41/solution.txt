@@ -1,0 +1,4 @@
+This is just any policy that acts greedily w.r.t. the optimal action-value function.
+\begin{equation}
+    \pi_* (a|s) = \frac{\mathds{1}\{a = \argmax_{a'} q_*(a', s)\}}{\sum_{a} \mathds{1}\{a = \argmax_{a'}q_*(a', s)\}}
+\end{equation}

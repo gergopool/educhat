@@ -1,0 +1,6 @@
+Write $\delta_t \doteq R_{t+1} + \gamma Q(S_{t+1}, A_{t+1}) -  Q(S_t, A_t)$. Then the Monte-Carlo error is
+\begin{align*}
+    G_t - Q(S_t, A_t) &= R_{t+1} + \gamma G_{t+1} - Q(S_t, A_t) \\
+                      &= \delta_t - \gamma [Q(S_{t+1}, A_{t+1}) + G_{t+1}]\\
+                      &= \sum_{k=t}^{T-1}\gamma^{k-t}\delta_k
+\end{align*}

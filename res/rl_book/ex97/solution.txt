@@ -1,0 +1,1 @@
+Write $\hat{V}(s, \vec{w}) = w$ and we get that $\grad_{\vec{w}} \hat{V}(s, \vec{w}) = 1$ so we return to tabular TD learning. In this case the features are $x(s) = 1$ $\forall s \in \mathcal{S}$.

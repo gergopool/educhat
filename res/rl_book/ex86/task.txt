@@ -1,0 +1,3 @@
+{Exercise 7.9}
+
+Repeat the above exercise for the action version of the off-policy n-step return (7.14) and the Expected Sarsa TD error (the quantity in brackets in Equation 6.9).

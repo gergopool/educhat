@@ -1,0 +1,23 @@
+The update is 
+\[
+    \vec{w}_{t+n} = \vec{w}_{t+n-1} + \alpha [G_{t:t+n} - \hat{q}(S_t, A_t, \vec{w}_{t+n-1})] \grad_{\vec{w}} \hat{q}(S_t, A_t, \vec{w}_{t+n-1}
+\]
+with the following definitions of returns targets\\
+
+{\bfseries Episodic}\\
+\[
+    G_{t:h} = R_{t+1} + \gamma \left[\sigma_{t+1}\rho_{t+1}  + (1-\sigma_{t+1})\pi(A_{t+1} \vert{} S_{t+1})\right]\left[G_{t:h} - \hat{q}(S_t, A_t, \vec{w}_{h-1}) \right] + \gamma \bar{V}_{h-1}(S_{t+1})
+\]\\
+
+{\bfseries Continuing}\\
+\[
+    G_{t:h} = R_{t+1} - \bar{R}_t + \left[\sigma_{t+1}\rho_{t+1}  + (1-\sigma_{t+1})\pi(A_{t+1} \vert{} S_{t+1})\right]\left[G_{t:h} - \hat{q}(S_t, A_t, \vec{w}_{h-1}) \right] + \bar{V}_{h-1}(S_{t+1})
+\]\\
+
+where 
+\[
+    \bar{V}_i(s) = \sum_a \pi(a \vert{} s) \hat{q}(s, \vec{w}_i)
+\]
+and $G_{h:h} = \hat{q}_(S_h, A_h, \vec{w}_{h-1})$ if $h<T$ while if $h=T$ we have $G_{T-1:T} = R_T$ in the episodic case and $G_{T-1:T} = R_T - \bar{R}_{T-1}$ in the continuing case.\\
+
+Note that in each case the value functions are defined with respect to the relevant episodic discounted or continuing average excess return.

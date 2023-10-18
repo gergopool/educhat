@@ -1,0 +1,3 @@
+{Exercise 3.10}
+
+Prove (3.10).

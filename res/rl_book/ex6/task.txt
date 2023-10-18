@@ -1,0 +1,3 @@
+{Exercise 2.1}
+
+In $\varepsilon$-greedy action selection, for the case of two actions and $\varepsilon = 0.5$, what is the probability that the greedy action is selected?

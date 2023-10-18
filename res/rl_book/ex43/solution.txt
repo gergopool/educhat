@@ -1,0 +1,1 @@
+$q_\pi(11, \mathtt{down}) = -1$ since goes to terminal state. $q_\pi(7, \mathtt{down}) = -15$.

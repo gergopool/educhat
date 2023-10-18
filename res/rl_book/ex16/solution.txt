@@ -1,0 +1,5 @@
+\ProgrammingExercise
+
+\includegraphics[width=\textwidth]{\ProjectDir/data/exercise_output/ex_2_11/action_values.png}
+
+\includegraphics[width=\textwidth]{\ProjectDir/data/exercise_output/ex_2_11/parameter_study.png}

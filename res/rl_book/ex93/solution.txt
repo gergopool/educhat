@@ -1,0 +1,11 @@
+\begin{itemize}
+    \item You could take frequency of occurrences of transitions to estimate the transition probability for the model. (These would be the MLE estimates.)
+    \item Make expected updates when planning.
+    \item This would would present an issue if the environment changed since the changes would just be reflected in changing transition probabilities (which could take a long time to reflect the change in the environment.)
+    \item A solution to this could be to use an exploration bonus to encourage the agent to continue to select various states and keep the model up to date.
+    \item A better solution would be to add some notion of confidence to the model estimates of the transition probabilities. Could model the probabilities like 
+    \[ 
+        p(s, a, s') = \hat{p}(s, a, s')(1 - \sigma(\tau)) + \sigma(\tau)e,
+    \]
+    where $\hat{p}$ is the MLE estimate of the probabilities, $e$ is the equiprobable estimate and $\sigma(\tau)$ is a sigmoid of the time since the state-action pair $(s, a)$ was list visited.
+\end{itemize}

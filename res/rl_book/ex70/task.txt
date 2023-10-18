@@ -1,0 +1,3 @@
+{*Exercise 6.7}
+
+Design an off-policy version of the $TD(0)$ update that can be used with arbitrary target policy $\pi$ and covering behavior policy $b$, using at each step $t$ the importance sampling ratio $\rho_{t:t}$(5.3).

@@ -1,0 +1,3 @@
+{Exercise 7.2 (programming)}
+
+With an $n$-step method, the value estimates \emph{do} change from step to step, so an algorithm that used the sum of TD errors (see previous exercise) in place of the error in (7.2) would actually be a slightly different algorithm. Would it be a better algorithm or a worse one? Devise and program a small experiment to answer this question empirically.

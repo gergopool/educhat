@@ -1,0 +1,3 @@
+{Exercise 13.1}
+
+Use your knowledge of the gridworld and its dynamics to determine an \emph{exact} symbolic expression for the optimal probability of selecting the \texttt{right} action in Example 13.1.

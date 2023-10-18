@@ -1,0 +1,1 @@
+The longer the step length then the greater the variance in initial runs, this is because the agent needs to wait for $n$ steps to start learning. Some initial episodes of high $n$ cases could have been very poor.

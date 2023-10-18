@@ -1,0 +1,17 @@
+Gaussian policy
+\[
+    \pi(a \vert{} s, \vec{\theta}) = \frac{1}{\sigma(s, \vec{\theta}) \sqrt{2 \pi}} \exp\left( - \frac{(a - \mu(s, \vec{\theta}))^2}{2 \sigma(s, \vec{\theta})^2} \right)
+\]
+with the models $\mu(s, \vec{\theta}_\mu) = \vec{\theta}_\mu^\top\vec{x}_\mu(s)$ and $\sigma(s, \vec{\theta}_\sigma) = \exp(\vec{\theta}_\sigma^\top\vec{x}_\sigma(s))$. First,
+\[
+    \log \pi(a \vert{} s, \vec{\theta}) = - \log \sqrt{2 \pi} - \log \sigma - \frac{(a - \mu)^2}{2\sigma^2}
+\]
+so we have 
+\[
+    \grad_{\vec{\theta}_\mu}\log\pi(a \vert{}s, \theta) = \frac{a - \mu}{\sigma^2}\grad_{\vec{\theta}_\mu}\mu(s, \vec{\theta}_\mu) = \frac{a - \mu}{\sigma^2} \vec{x}_\mu(s)
+\]
+and
+\[
+    \grad_{\vec{\theta}_\sigma}\log\pi(a \vert{} s, \vec{\theta}) = - \frac{\grad_{\vec{\theta}_\sigma} \sigma}{\sigma} + \frac{(a - \mu)^2}{\sigma^3}\grad_{\vec{\theta}_\sigma}\sigma = \left( \frac{(a - \mu)^2}{\sigma^2} - 1 \right)\vec{x}_\sigma(s) 
+\]
+because $\grad_{\vec{\theta}_\sigma}\sigma = \vec{x}_\sigma(s) \sigma$.

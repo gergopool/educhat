@@ -1,0 +1,3 @@
+{Exercise 4.1}
+
+In Example 4.1, if $\pi$ is the equiprobable random policy, what is $q_\pi(11, \mathtt{down})$? What is $q_\pi(7, \mathtt{down})$?

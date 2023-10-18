@@ -1,0 +1,1 @@
+$v_\pi(15) = -20$ if dynamics unchanged. If dynamics changed then apparently the state value is the same, but you would need to verify Bellman equations for all states for this.

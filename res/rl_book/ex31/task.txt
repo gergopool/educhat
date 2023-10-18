@@ -1,0 +1,3 @@
+{Exercise 3.15}
+
+Now consider adding a constant $c$ to all the rewards in an episodic task, such as maze running. Would this have any effect, or would it leave the task unchanged as in the continuing task above? Why or why not? Give an example.

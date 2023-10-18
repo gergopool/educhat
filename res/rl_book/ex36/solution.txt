@@ -1,0 +1,1 @@
+When $\gamma=0$, $v_{\pi_{\mathtt{left}}}$ is optimal. When $\gamma = 0.5$, they are both optimal. When $\gamma=0.9$, $v_{\pi_{\mathtt{right}}}$ is optimal.

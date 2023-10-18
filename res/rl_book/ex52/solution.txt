@@ -1,0 +1,3 @@
+\begin{equation}
+    q_{k+1} = \max_{a'} \sum_{s', r} p(s', r| s, a)\left[r + \gamma q_k(s', a')\right]
+\end{equation}

@@ -1,0 +1,3 @@
+{Exercise 9.2}
+
+Why does (9.17) define $(n+1)^k$ distinct features for dimension $k$?

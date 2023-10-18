@@ -1,0 +1,3 @@
+{Exercise 5.9}
+
+In the boxed algorithm for off-policy MC control, you may have been expecting the W update to have involved the importance-sampling ratio $\pi(A_t|S_t)$, but instead it involves $1/b(A_t|S_t)$. Why is this nevertheless correct?

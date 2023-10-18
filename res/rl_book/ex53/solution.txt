@@ -1,0 +1,5 @@
+\begin{itemize}
+    \item Policy is to hit unless $S \geq 20$. So you run a rik of going bust if you have 12-19, but you most likely win when you stick on 20 or 21
+    \item Drops off because dealer has a usable ace
+    \item Frontmost higher because you're less likely to go bust, but you still might get to 20 or 21 ($\pi$ always hits here).
+\end{itemize}

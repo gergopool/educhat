@@ -1,0 +1,3 @@
+{Exercise 3.4}
+
+Give a table analogous to the one in Example 3.3, but for $p(s', r| s, a)$. It should have columns $s, a, s', r$, and a row for every 4-tuple for which $p(s', r | s, a) > 0$.

@@ -1,0 +1,21 @@
+Assume action-values unchanging. The recursion formula for tree backup is 
+\[
+    G_{t:t+n} = R_{t+1} + \gamma \sum_{a \neq A_{t+1}} \pi(a \vert S_{t+1}) Q(S_{t+1}, a) + \gamma \pi(A_{t+1}, S_{t+1}) G_{t+1:t+n}.
+\]
+Define
+\[
+    \delta_t \doteq R_{t+1} + \gamma \bar{V}(S_{t+1}) - Q(S_t, A_t)
+\]
+where
+\[
+    \bar{V}_h \doteq \sum_a \pi(a \vert S_h)Q(S_h, a).
+\]
+Then
+\begin{align*}
+    G_{t:t+n} - Q(S_t, A_t) &= R_{t+1} + \gamma \bar{V}(S_{t+1}) - \gamma \pi(A_{t+1}, S_{t+1})Q(S_{t+1}, A_{t+1}) \\
+                            &\quad - Q(S_t, A_t) + \gamma \pi(A_{t+1}, S_{t+1})G_{t+1:t+n} \\
+                            &= \delta_t - \gamma \pi(A_{t+1}, S_{t+1}) [G_{t+1:t+n} - Q(S_{t+1}, A_{t+1})] \\
+                            &\vdotswithin{=}\\
+                            &=\sum_{i=1}^{\textrm{min}(t+n, T)-1} \delta_i \prod_{j=t+1}^i \gamma \pi(A_j, S_j)
+\end{align*}
+where we define the product operator to have the behaviour $\prod_a^b[\cdot] = 1$ for $a > b$.

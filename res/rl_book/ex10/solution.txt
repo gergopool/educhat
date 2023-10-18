@@ -1,0 +1,3 @@
+\ProgrammingExercise
+
+\includegraphics[width=\textwidth]{\ProjectDir/data/exercise_output/ex_2_5/learning_curve.png}

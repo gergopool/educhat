@@ -1,0 +1,13 @@
+{Exercise 2.7: Unbiased Constant-Step-Trick}
+
+In most of this chapter we have used sample averages to estimate action values because sample averages do not produce the initial bias that constant step sizes do (see the analysis in (2.6)). However, sample averages are not a completely satisfactory solution because they may perform poorly on non-stationary problems. Is it possible to avoid the bias of constant step sizes while retaining their advantages on non-stationary problems? One way is to use a step size of
+\begin{equation}
+    \beta_t \doteq \alpha / \bar{o}_t,
+\end{equation}
+where $\alpha > 0$ is a conventional constant step size and $\bar{o}_t$ is a trace of one that starts at 0:
+\begin{equation}
+    \bar{o}_{t+1} = \bar{o}_t + \alpha (1 - \bar{o}_t)
+\end{equation}
+for $t \geq 1$ and with $\bar{o}_1 \doteq \alpha$.\\
+
+Carry out an analysis like that in (2.6) to show that $\beta_t$ is an exponential recency-weighted average \emph{without initial bias}.

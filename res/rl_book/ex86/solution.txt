@@ -1,0 +1,19 @@
+Action-value update is 
+\[
+    G_{t:h} = R_{t+1} + \gamma \rho_{t+1} \left(G_{t+1:h} - Q_{h-1}(S_{t+1}, A_{t+1}\right) - \gamma \bar{V}_{h-1}(S_h)
+\]
+where
+\[
+    \bar{V}_h \doteq \sum_a \pi(a \vert S_h)Q(S_h, a)
+\]
+and we assume that the action value function does not change between iterations. Define
+\[
+    \delta_t \doteq R_{t+1} + \gamma \bar{V}(S_{t+1}) - Q(S_t, A_t).
+\]
+Then
+\begin{align*}
+    G_{t:h} - Q(S_t, A_t) &= \delta_t + \gamma \rho_{t+1}(G_{t+1:h} - Q(S_{t+1}, A_{t+1})) \\
+                          &\vdotswithin{=}\\
+                          &=\sum_{i=t}^{\textrm{min}(h, T)-1}\gamma^{i-t}\rho_{t+1:i}\delta_i
+\end{align*}
+where we enforce the convention that $\rho_{a:b} = 1$ if $a > b$.

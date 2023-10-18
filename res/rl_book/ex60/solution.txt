@@ -1,0 +1,14 @@
+Have $C_0 = 0$, $C_n = \sum_{k = 1}^n W_k$ and 
+\[
+    V_{n+1} = \frac{\sum_{k = 1}^n W_kG_k}{C_n}.
+\]
+Therefore,
+\begin{align}
+    C_n V_{n+1} &= \sum_{k+1}^{n-1}W_kG_k + W_kG_k\\
+                &= C_{n-1}V_n + W_nG_n \\
+                &= (C_n - W_n)V_n + W_nG_n.
+\end{align}
+Finally
+\[
+    V_{n+1} = V_n + \frac{W_n}{C_n}[G_n - V_n].
+\]

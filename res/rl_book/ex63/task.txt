@@ -1,0 +1,3 @@
+{*Exercise 5.11}
+
+Modify the algorithm for off-policy Monte Carlo control (page 110) to use the idea of the truncated weighted-average estimator (5.10). Note that you will first need to convert this equation to action values.

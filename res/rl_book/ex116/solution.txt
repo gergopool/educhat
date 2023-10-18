@@ -1,0 +1,18 @@
+\begin{itemize}
+    \item Generalisation the recursion equation that governs expected time in each state:
+    \begin{align*}
+        \eta(s) &= h(s) + \gamma \sum_{\bar{s}}\eta(\bar{s}) \sum_a \pi(a \vert{} \bar{s}) p(s \vert{} \bar{s}, a)\\
+                &= h(s) + \gamma \sum_{\bar{s}, a}\pi(a \vert{} \bar{s}) p(s \vert{} \bar{s}, a) + \gamma ^2 \sum_{\bar{s}, a}\pi(a \vert{} \bar{s}) p(s \vert{} \bar{s}, a) \sum_{x, a'}\pi(a' \vert{} x) p(\bar{s} \vert{} x, a) + \cdots
+    \end{align*}
+    This just changes the solution for $\eta(s)$, we still have $\mu(s) = \frac{\eta(s)}{\sum_{s'} \eta(s')}$.
+    \item The generalisation of the proof of the policy gradient theorem comes with the use of the Bellman  equation unfolding for the value function. We therefore arrive at the following gradient:
+    \[
+        \grad_{\vec{\theta}} v_\pi(s) = \sum_{x \in \S{}}\sum_{k = 0}^\infty \P{}(s \to x, k, \pi)\gamma^k\sum_a \grad_{\vec{\theta}} \pi(a \vert{} x) q_\pi(x, a),
+    \]
+    and the theorem follows as before.
+    \item To full incorporate discounting, we need to view it as a form of termination. The policy gradient theorem becomes
+    \[
+        \grad_{\vec{\theta}} J(\vec{\theta}) = \Epi[\gamma_t \sum_a q_\pi(S_t, a) \grad_{\vec{\theta}} \pi(a \vert{} S_t, \vec{\theta})].
+    \]
+    The factor of $\gamma^t$ then follows through when we apply SGD. (It's possible to do some rearranging to prove this relation, but it is not done in the book --  a little unclear!)
+\end{itemize}

@@ -1,0 +1,6 @@
+Algo is the same apart from 
+\begin{itemize}
+    \item Initialise $V(s) = 0 \quad \forall s \in S$
+    \item Don't need \emph{Returns(s)} lists.
+    \item Remove the last two lines and put in \[ V(S_t) \leftarrow V(S_t) + \frac{1}{T- t}[ G_t - V(S_t) ] \]
+\end{itemize}

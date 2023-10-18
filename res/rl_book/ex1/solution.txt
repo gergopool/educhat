@@ -1,0 +1,6 @@
+\begin{itemize}
+    \item Would learn a different policy than playing a fixed opponent since the opponent would also be changing in this case.
+    \item May not be able to learn an optimal strategy as the opponent keeps changing also.
+    \item Could get stuck in loops.
+    \item Policy could remain static since on average they would draw each iteration.
+\end{itemize}

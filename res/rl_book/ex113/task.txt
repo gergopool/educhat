@@ -1,0 +1,3 @@
+{Exercise 11.3 (programming)}
+
+Apply one-step semi-gradient Q-learning to Baird’s counterexample and show empirically that its weights diverge.

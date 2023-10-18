@@ -1,0 +1,7 @@
+{Exercise 13.3}
+
+In Section 13.1 we considered policy parameterizations using the soft-max in action preferences (13.2) with linear action preferences (13.3). For this parameterization, prove that the eligibility vector is
+\[
+    \grad \log \pi(a \vert{} s, \vec{\theta}) = \vec{x}(s, a) - \sum_b \pi(b \vert{} s, \vec{\theta})\vec{x}(s, b)
+\]
+using the definitions and elementary calculus.

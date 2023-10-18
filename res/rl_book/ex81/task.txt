@@ -1,0 +1,6 @@
+{Exercise 7.4}
+
+Prove that the n-step return of Sarsa (7.4) can be written exactly in terms of a novel TD error, as
+\[
+    G_{t:t+n} = Q_{t-1}(S_t, A_t) + \sum_{k=t}^{\textrm{min}(t+n, T) -1} \gamma^{k-1}[R_{k+1} + \gamma Q_k(S_{k+1}, A_{k+1}) - Q_{k-1}(S_k, A_k)].
+\]

@@ -1,0 +1,1 @@
+Tiles that are thin along the dimension of interest and long across it. Rectangles, for instance.

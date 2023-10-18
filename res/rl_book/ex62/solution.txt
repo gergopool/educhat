@@ -1,0 +1,4 @@
+\ProgrammingExercise\\
+\includegraphics[width=\textwidth]{\ProjectDir/data/exercise_output/ex_5_10/track_1_trajectories.eps}
+
+\includegraphics[width=\textwidth]{\ProjectDir/data/exercise_output/ex_5_10/track_2_sample_trajectory.eps}

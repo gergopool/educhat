@@ -1,0 +1,8 @@
+All actions tak the agent to $A'$ with reward $10$. We can see that $\gamma = 16.0 / 17.8 = 0.9$. This means that
+\begin{equation}
+    v = 10 + 16 \times 0.9 = 24.4.
+\end{equation}
+This is using the following framework
+\begin{equation}
+    v_*(s) = \max_{a}\sum_{s', r} p (s', r| s, a)[r + \gamma v_*(s')].
+\end{equation}

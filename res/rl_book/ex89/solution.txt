@@ -1,0 +1,1 @@
+Dyna updates using all past experience so quickly synthesises this into an optimal trajectory. $n$-step bootstrapping might be slower because it only states visited in the last $n$ steps.

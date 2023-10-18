@@ -1,0 +1,12 @@
+Could have used DP, but probably did the following calculation.\\
+
+First note that
+\[
+    V(s) = \E{}[\mathds{1}\{\textsf{terminate on right from } S\}] = \P{}(\textsf{terminate on right from } S).
+\]
+Also recognise that symmetry now implies $V(C) = 0.5$. Now
+\begin{align*}
+    V(E) &= \frac12 \times 1 + \frac12 \times V(D) \\
+         &= \frac12 + \frac14[V(C) + V(E)],
+\end{align*}
+so $V(E) = \frac56$. We then get $V(D) = \frac46$ and we can calculate the other states in the same way.

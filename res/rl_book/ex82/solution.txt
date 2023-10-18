@@ -1,0 +1,7 @@
+The update that we use is the same as the $n$-step TD update, only multiplied by the importance sampling ratio and with the control variate added. 
+\[
+    G_{t:h} \doteq \rho_t (R_{t+1} + \gamma G_{t+1:h}) + (1 - \rho_t) V_{h-1}(S_t)
+\]
+The algorithm is therefore the same, but with these steps replacing the old returns calculations, using the latest available value function.\\
+
+If you take the recursion relation literally then we should get a control variate for each of the intermediary states $(t+1, \dots, t+n)$, but I don't think that this is what is intended as this would just increase variance further.

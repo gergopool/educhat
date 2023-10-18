@@ -1,0 +1,4 @@
+\begin{itemize}
+    \item We could label the states as unique up to symmetries so that our search space is smaller, this way we will get a better estimate of optimal play.
+    \item If we are playing an opponent who does not take symmetries into account when they are playing then we should not label the states as the same since the opponent is part of the environment and the environment is not the same in those states.
+\end{itemize}

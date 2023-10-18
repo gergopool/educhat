@@ -1,0 +1,3 @@
+{Exercise 8.2}
+
+Why did the Dyna agent with exploration bonus, Dyna-Q+, perform better in the first phase as well as in the second phase of the blocking and shortcut experiments?
