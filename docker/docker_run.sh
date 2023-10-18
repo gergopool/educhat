@@ -26,6 +26,9 @@ print_usage() {
     echo "  -i  Run Docker interactively"
     echo "  -p  Which port to use for the server"
     echo "  -h  Show this help message"
+    # echo "  -c  the command to run inside the container"
+    # echo "      Example usage: docker_run.sh -c /bin/bash -i"
+    # echo "                      docker_run.sh -c python script.py -py_param"
 }
 
 # Parse command-line arguments

@@ -1,0 +1,28 @@
+<!-- new_task.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Create New Task</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<div id="form-container">
+    <form id="new-task-form">
+        <label for="task-name">Task name:</label><br>
+        <input type="text" id="task-name" name="task-name"><br>
+        <label for="task-description">Task description:</label><br>
+        <textarea id="task-description" name="task-description", rows="5"></textarea><br>
+        <label for="task-solution">Task solution:</label><br>
+        <textarea id="task-solution" name="task-solution", rows="5"></textarea><br>
+        <label for="marking-scheme">Marking scheme:</label><br>
+        <textarea id="marking-scheme" name="marking-scheme", rows="3"></textarea><br>
+        <input type="submit" value="Submit", id="new-task-submit">
+    </form>
+</div>
+
+<script src="/static/js/new_task.js"></script>
+</body>
+</html>

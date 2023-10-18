@@ -3,24 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Exercise Page</title>
+    <title>Chat Interface</title>
     <link rel="stylesheet" href="/static/css/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
 </head>
 <body>
-    <div id="exercise-description">
-        {{ task_description | safe }}
-    </div>
-    <div id="user-input-area">
-        <textarea id="user-input" rows="4" placeholder="Enter your answer here..."></textarea>
-        <button id="submit-btn">Submit</button>
-    </div>
-    <button id="show-solution-btn">Show Solution</button>
-    <button id="next-btn">Next</button>
-    <div id="solution-feedback-area">
-        <!-- Dynamically populate with server data -->
+
+<button id="random-exercise-btn", class="navigate-btn">Next</button>
+
+<button id="home-btn", class="navigate-btn">Home</button>
+<button id="new-btn", class="navigate-btn">Create Task</button>
+<button id="hint-btn",  class="navigate-btn">Hint</button>
+
+<div id="chat-container">
+    <div id="messages">
+        <!-- Example Messages -->
+        <div class="message">
+            <div class="message-content">
+                <img src="/static/img/question.png" alt="User Icon">
+                <p>{{ task_description | safe }}</p>
+            </div>
+        </div>
     </div>
 
-    <script src="/static/js/exercise.js"></script>
+    <div id="input-area">
+        <div id="center-container">
+            <div id="user-input-container">
+                <textarea id="user-input" rows="1" placeholder="Type your message..."></textarea>
+            </div>
+            <button id="submit-btn">Submit</button>
+        </div>
+    </div>
+</div>
+
+<script src="/static/js/exercise.js"></script>
 </body>
 </html>

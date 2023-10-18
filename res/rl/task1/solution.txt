@@ -1,0 +1,1 @@
+It is, because 12 is an even number which is divisible by 3. Therefore, it is divisible by 6.
