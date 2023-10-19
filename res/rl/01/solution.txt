@@ -1,0 +1,1 @@
+Supervised learning involves training models on labeled data to predict predefined outputs, while reinforcement learning focuses on agents learning from interaction with an environment to maximize cumulative rewards.

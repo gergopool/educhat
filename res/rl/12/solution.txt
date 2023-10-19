@@ -1,0 +1,5 @@
+The exploration-exploitation dilemma refers to the challenge of deciding whether to explore unknown options or exploit known options for immediate gain. In the context of multi-armed bandit problems, it's exemplified by a gambler facing multiple slot machines (bandits) with unknown payout probabilities.
+- Exploration: Exploring involves trying different bandits to learn their payout probabilities better. It may result in lower immediate rewards but can lead to better long-term decisions.
+- Exploitation: Exploiting involves choosing the bandit with the highest observed payout so far, aiming for immediate rewards. However, it may not lead to optimal long-term rewards if a better bandit exists.
+
+For real-life example, it is up to you to decide if the example matches what we need. For instance, here is an example: Imagine a little boy deciding to try out a new taste of ice-cream. He might go for a new flavor (exploration) or stick to the best he ever tasted (exploitation). There is a chance he discovers a new best flavor, but if he does not want to risk, he goes for the best he already knows.

@@ -1,0 +1,4 @@
+2 Maximal points for full answer.
+-0.5 for any wrong example.
+-0.5 for any wrong explanation.
+So, for instance, if the student explained the concepts right, but did not bring a good example for off-policy algorithms, that would be 1.5 marks out of 2.

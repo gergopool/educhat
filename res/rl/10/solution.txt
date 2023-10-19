@@ -1,0 +1,6 @@
+- Sample Efficiency: Use efficient exploration, transfer learning, or model-based methods.
+- Non-Stationarity: Employ experience replay and adaptive learning rates.
+- High-Dimensional State Spaces: Apply function approximation methods like deep neural networks.
+- Reward Design: Carefully engineer reward functions or use reward shaping.
+- Exploration-Exploitation: Balance with epsilon-greedy or exploration bonuses.
+- Sample Bias: Correct bias in off-policy learning with importance sampling.

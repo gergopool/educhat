@@ -1,0 +1,1 @@
+0.2 marks for each hit. So if the student finds only 3, that's 3*0.2=0.6 points. Full marks (1) goes for all 5 found.

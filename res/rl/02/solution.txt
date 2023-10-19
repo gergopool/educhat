@@ -1,0 +1,5 @@
+States (S): The set of all possible situations the agent can be in.
+Actions (A): The set of all possible moves the agent can take.
+Transitions (P): The probability distribution of moving from one state to another after taking an action.
+Rewards (R): The immediate numerical rewards associated with state transitions.
+Policy (pi): A strategy that defines the agent's actions in different states.

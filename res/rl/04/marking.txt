@@ -1,0 +1,2 @@
+1/1 for a clear explanation of both exploration and exploitation and their significance.
+0.5/1 for addressing one of them correctly

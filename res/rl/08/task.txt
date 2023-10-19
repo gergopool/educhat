@@ -1,0 +1,1 @@
+How does the concept of discounting factor (\(\gamma\)) affect the agent's behavior? How does a low or high \(\gamma\) value affect the training?

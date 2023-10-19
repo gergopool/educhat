@@ -1,0 +1,1 @@
+Exploration involves the agent trying new actions to gather information about the environment and discover potentially better strategies. Exploitation, on the other hand, is when the agent chooses actions based on its current knowledge to maximize immediate rewards. 

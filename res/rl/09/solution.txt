@@ -1,0 +1,3 @@
+Policy Iteration: It's an iterative algorithm that alternates between policy evaluation and policy improvement. Initially, a random policy is evaluated and improved iteratively until convergence. This leads to finding an optimal policy. Policy iteration is guaranteed to converge to the optimal policy for finite MDPs.
+
+Value Iteration: It's an iterative algorithm that directly computes the optimal value function. It starts with an initial estimate of the value function and iteratively updates it using the Bellman equation until convergence. The optimal policy can be derived from the final value function.

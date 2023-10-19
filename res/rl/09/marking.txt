@@ -1,0 +1,2 @@
+1/1 for explaining both policy iteration and value iteration.
+0.5 for addressing either policy iteration or value iteration correctly.

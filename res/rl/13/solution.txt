@@ -1,0 +1,3 @@
+Markov Chain: A Markov chain is a mathematical model that represents a sequence of states or events, where the probability of transitioning from one state to another depends only on the current state. 
+
+Relation to MDPs: Markov Decision Processes (MDPs) are an extension of Markov chains in the context of reinforcement learning. In MDPs, each state is associated with a reward, and an agent can take actions that transition it between states. MDPs extend the concept of Markov chains by introducing actions, rewards, and a decision-making framework.

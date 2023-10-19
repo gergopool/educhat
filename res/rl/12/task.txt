@@ -1,0 +1,1 @@
+Explain the concept of the exploration-exploitation dilemma in the context of multi-armed bandit problems, and provide an example of how it can be applied in real-life decision-making scenarios.

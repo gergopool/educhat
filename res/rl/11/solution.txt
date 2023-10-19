@@ -1,0 +1,1 @@
+a policy is a strategy that defines the agent's behavior or decision-making process. It specifies which actions the agent should take in each state or situation within an environment. A policy can be represented as a mapping from states to actions, denoted as \(\pi(s)\rightarrow a\), where \(\pi\) represents the policy and \(a\) is the action chosen.

@@ -1,0 +1,8 @@
+Advantages:
+- Sample Efficiency: They often require fewer real interactions with the environment to learn a good policy.
+- Guarantees: Some model-based algorithms can provide theoretical guarantees on convergence and optimality.
+
+Disadvantages:
+- Model Bias: The quality of the learned model can introduce bias, impacting policy quality.
+- Model Complexity: Building an accurate model of complex environments can be challenging.
+- Computational overhead: Planning with models can be computationally expensive, limiting real-time applications.

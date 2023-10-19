@@ -1,0 +1,5 @@
+The discounting factor (\(\gamma\)) determines the agent's consideration of future rewards relative to immediate rewards.
+
+A high \(\gamma\) (close to 1) makes the agent value long-term rewards, leading to more far-sighted behavior.
+A low \(\gamma\) (close to 0) emphasizes immediate rewards, promoting myopic, short-term decision-making.
+Adjusting \(\gamma\) allows fine-tuning the agent's balance between short-term and long-term objectives, impacting its behavior and strategy.

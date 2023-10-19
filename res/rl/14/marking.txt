@@ -1,0 +1,7 @@
+3/3 full marks
+Partial marks:
+1 mark for each definition right.
+0.25 mark for a similarity of difference being wrong.
+
+E.g.
+The student defined the two concepts, but brought only one similarity and one difference, that's 1+1+0.25+0.25=2.5 marks

@@ -1,0 +1,4 @@
+The reward function in reinforcement learning assigns a numerical value to each state-action pair, representing the immediate desirability of taking an action in a particular state. It serves two crucial roles:
+
+Goal Specification: It defines the objective of the agent by indicating what outcomes are desirable (higher rewards) or undesirable (lower rewards).
+Learning Signal: Rewards guide the agent's learning process, helping it update its policy to maximize cumulative expected rewards over time.

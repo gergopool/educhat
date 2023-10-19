@@ -1,0 +1,9 @@
+The Bellman equation is a fundamental equation in RL that expresses the value of a state in terms of the expected cumulative reward. It's represented as:
+\[V(s) = \max_a \left(R(s, a) + \gamma \sum_{s'} P(s' | s, a) V(s')\right)\]
+
+V(s) is the value of the state s.
+R(s,a) is the immediate reward when taking action \(a\) in state \(s\).
+\gamma is the discount factor.
+\(P(s' | s, a)\)is the transition probability to state \(s'\)
+
+The Bellman equation relates the value of a state to the expected sum of immediate rewards and the values of successor states, forming the foundation for value iteration and policy evaluation in RL.
