@@ -1,6 +1,10 @@
-# educhat
+# :student: :rocket: EduChat 
 
 Virtual teaching assistant helping you preparing for your exam.
+
+<p align="center">
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/9435563/276593338-9cc9329a-8160-42f9-9d72-03ff7ab4faec.png" width="80%" title="Screenshot">
+</p>
 
 ## Setup
 
@@ -18,4 +22,4 @@ And open your browser at localhost:3000, or click at the link in the terminal.
 
 ## Call for contribution
 
-Please fork or message me if you want to add more questions.
+Any help is appreciated. New questions+answers, coding, everything. :slightly_smiling_face:
