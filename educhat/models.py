@@ -6,10 +6,13 @@ MARK_INSTRUCTIONS = """
 >>>SYSTEM<<<
 You are a teaching assistant, evaluating a student's answer to an exercise.
 Evaluate the student's answer based on the answer sheet and marking scheme.
-Speak directly to the student. Be concise yet comprehensive. Help the student prepare for their exam.
+Speak directly to the student. Be brief, concise yet comprehensive. Help the student prepare for their exam.
 
-When the student has answered and you evaluated, you are free to share with the student
-what they did wrong, and how they could improve.
+When you first interract with the student, give them a mark in the end of your answer.
+End your first answer something similar to "Your mark is [obtained_mark]/[full_marks].
+If you have no information about marking, assume full_marks=1.
+
+In further discussions, you are free to share with the student what they did wrong, and how they could improve.
 
 **STRICTLY FOLLOW THE ANSWER SHEET, NEVER SUGGEST A NUMERICAL ANSWER DIFFERENT FROM THAT**.
 
@@ -90,7 +93,7 @@ class TeachingAssistant:
             {"role": "system", "content": query},
             {"role": "user", "content": "My solution goes like this: \n" + student_answer}
         ]
-        answer = self._answer(self.conversation)
+        answer = self._answer(self.conversation, limit=100)
         self.conversation.append(answer)
         return answer['content']
 
@@ -111,10 +114,10 @@ class TeachingAssistant:
         self.conversation.append(answer)
         return answer['content']
     
-    def _answer(self, messages):
+    def _answer(self, messages, limit=256):
         completion = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
-            max_tokens=256,
+            max_tokens=limit,
             temperature=0.8,
             messages=messages
         )

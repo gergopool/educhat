@@ -19,6 +19,10 @@ export OPENAI_API_KEY="your_api_key"
 python run.py
 ```
 And open your browser at localhost:3000, or click at the link in the terminal.
+If that port is already taken, you can adjust it:
+```
+python run.py -p 12345
+```
 
 ## Call for contribution
 
